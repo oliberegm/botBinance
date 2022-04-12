@@ -3,6 +3,7 @@ package com.olibersystem.bot.binance.botbinance.service;
 import com.olibersystem.bot.binance.botbinance.dto.request.AccountRequestDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.AccountSnapshotDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.ExchangeInfoDTO;
+import com.olibersystem.bot.binance.botbinance.dto.request.KlinesRequestDto;
 import com.olibersystem.bot.binance.botbinance.dto.request.TickerPriceDto;
 import reactor.core.publisher.Mono;
 
@@ -35,5 +36,5 @@ public interface BinanceService {
 
     String averagePrice(String symbol);
 
-    ArrayList<ArrayList<Object>> klines(String symbol, String interval);
+    List<KlinesRequestDto> klines(String symbol, String interval);
 }

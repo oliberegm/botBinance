@@ -33,6 +33,9 @@ public class InstrumentServiceImpl implements InstrumentService {
         positives = 0l;
     }
 
+
+
+
     @Override
     public List<String> getSymbols() {
         return motorDataService.getAllNames();

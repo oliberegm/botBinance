@@ -10,6 +10,7 @@ import com.olibersystem.bot.binance.botbinance.dto.request.AccountRequestDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.AccountSnapshotDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.ErrorRequestDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.ExchangeInfoDTO;
+import com.olibersystem.bot.binance.botbinance.dto.request.KlinesRequestDto;
 import com.olibersystem.bot.binance.botbinance.dto.request.OrdersRequestDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.TickerPriceDto;
 import com.olibersystem.bot.binance.botbinance.service.BinanceService;
@@ -222,14 +223,16 @@ public class BinanceServiceImpl implements BinanceService {
     }
 
     @Override
-    public ArrayList<ArrayList<Object>> klines(String symbol, String interval) {
+    public List<KlinesRequestDto> klines(String symbol, String interval) {
         LinkedHashMap<String,Object> parameters = new LinkedHashMap<>();
         parameters.put("symbol",symbol);
         parameters.put("interval",interval);
         String result = client.createMarket().klines(parameters);
-        log.info(result);
+        //log.info(result);
         try {
-            return objectMapper.readValue(result, new TypeReference<ArrayList<ArrayList<Object>>>() {});
+            return objectMapper.readValue(result, new TypeReference<ArrayList<ArrayList<Object>>>() {})
+                    .stream().map(KlinesRequestDto::generate)
+                    .collect(Collectors.toList());
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }

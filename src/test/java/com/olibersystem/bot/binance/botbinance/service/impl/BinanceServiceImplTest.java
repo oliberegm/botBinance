@@ -1,8 +1,10 @@
 package com.olibersystem.bot.binance.botbinance.service.impl;
 
-import com.olibersystem.bot.binance.botbinance.dto.request.AccountRequestDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.AccountSnapshotDTO;
+import com.olibersystem.bot.binance.botbinance.dto.request.KlinesRequestDto;
+import com.olibersystem.bot.binance.botbinance.model.Alert;
 import com.olibersystem.bot.binance.botbinance.service.BinanceService;
+import com.olibersystem.bot.binance.botbinance.service.KlintesServices;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -14,6 +16,9 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
@@ -21,6 +26,8 @@ import java.util.ArrayList;
 class BinanceServiceImplTest {
     @Autowired
     BinanceService binanceService;
+    @Autowired
+    KlintesServices klintesServices;
 
     @Test
     void systemGetAll() {
@@ -85,28 +92,42 @@ class BinanceServiceImplTest {
         //binanceService.averagePrice("BTCUSDT");
         // convertir la lista en un objeto
         // correrla cada 1seg para ver que hace
-        ArrayList<ArrayList<Object>> res = binanceService.klines("BTCUSDT", "1m");
-        ArrayList<ArrayList<Object>> res2 = res;
-
-        ;
-        for(int i = 0; i < res.size() -2; i++ ) {
-            ArrayList<Object> ant = res.get(i);
-            ArrayList<Object> act = res.get(i+1);
-            System.out.println(i+1 + " "
-                    Double.valueOf((Double) ant.get(0)).compareTo(Double.valueOf((Double) ant.get(0))) == 1 ? "subio" : "bajo"
-                    +
-            );
+        List<KlinesRequestDto> res = binanceService.klines("MTLUSDT", "15m");
+        for (KlinesRequestDto dto : res) {
+            klintesServices.add("MTLUSDT", dto);
+            for(Alert a : klintesServices.alerts()) {
+                log.info(a.toString());
+            }
         }
 
-        /*
+
+
+/*
+
+        AtomicReference<Double> ant = new AtomicReference<>((double) 1);
+        AtomicInteger i = new AtomicInteger(0);
+        AtomicInteger cc = new AtomicInteger(0);
         res.stream().forEach(f -> {
-            log.info(String.valueOf(LocalDateTime.ofEpochSecond( Long.valueOf(f.get(0).toString())/ 1000,0, ZoneOffset.of("-03:00"))));
-            log.info(String.valueOf(LocalDateTime.ofEpochSecond( Long.valueOf(f.get(6).toString())/ 1000,0, ZoneOffset.of("-03:00"))));
-            log.info(String.valueOf(f.get(1)));
-            log.info("===========");
-            System.out.println(f.get(0)+","+f.get(1)+","+f.get(2)+","+f.get(3)+","+f.get(4)+","+f.get(5)+","+f.get(6)+","+f.get(7)+","+f.get(8)+","+f.get(9)+","+f.get(10)+","+f.get(11)+",");
-        });
-*/
+            //log.info(String.valueOf(LocalDateTime.ofEpochSecond( Long.valueOf(f.get(0).toString())/ 1000,0, ZoneOffset.of("-03:00"))));
+            //log.info(String.valueOf(LocalDateTime.ofEpochSecond( Long.valueOf(f.get(6).toString())/ 1000,0, ZoneOffset.of("-03:00"))));
+            //log.info(String.valueOf(f.get(1)));
+            //log.info("===========");
+            /*String fecha = String.valueOf(LocalDateTime.ofEpochSecond( Long.valueOf(f.get(0).toString())/ 1000,0, ZoneOffset.UTC));
+            double prom = Double.valueOf( String.valueOf( f.get(1) )) +Double.valueOf( String.valueOf( f.get(2) ))+Double.valueOf( String.valueOf( f.get(3) ))+Double.valueOf( String.valueOf( f.get(4) ));  // ((Double) f.get(1)) + ((Double) f.get(2)) + ((Double) f.get(3)) +((Double) f.get(4));
+            prom = prom / 4;
+            prom = Double.valueOf( String.valueOf( f.get(1) ));
+            double diff = ( prom - ant.get()) / ant.get() * 100;+
+            cc.set( diff > 0 ? cc.get() + 1 : 0 );
+            //System.out.println(String.format("%s, %s, %s, %s, %s ",
+            //        fecha, String.valueOf( f.get(5) ), String.valueOf( f.get(7) ),  String.valueOf( f.get(9) ), String.valueOf( f.get(10) )));
+            System.out.println(fecha+","+f.get(1)+","+f.get(2)+","+f.get(3)+","+f.get(4)+","+f.get(5)+","+f.get(6)+","+f.get(7)+","+f.get(8)+","+f.get(9)+","+f.get(10)+","+f.get(11)+",");
+            //if(diff> 2d)
+            /*System.out.println(String.format("iter: %s sec: %s  Fecha: %s ant: %s  act: %s  porc: %s ",
+                    i.get(), cc.get(), fecha, ant.get(), prom,  diff));*/
+            //ant.set(prom);
+           // log.info(f.toString());
+           // i.incrementAndGet();
+        //});
 
     }
 }

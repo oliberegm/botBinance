@@ -10,7 +10,6 @@ import com.olibersystem.bot.binance.botbinance.model.TraderBO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
@@ -51,6 +50,11 @@ public class MotorDataService {
         data.put(priceDto.symbol, symbolBO);
         instrumentBO.setPrice(Double.parseDouble(priceDto.price));
         instrumentBOMap.put(priceDto.symbol, instrumentBO);
+    }
+
+    public void addStatistics() {
+
+
     }
 
     public List<SymbolBO> getAll() {
