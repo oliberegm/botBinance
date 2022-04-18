@@ -224,17 +224,20 @@ public class BinanceServiceImpl implements BinanceService {
 
     @Override
     public List<KlinesRequestDto> klines(String symbol, String interval) {
-        LinkedHashMap<String,Object> parameters = new LinkedHashMap<>();
-        parameters.put("symbol",symbol);
-        parameters.put("interval",interval);
-        String result = client.createMarket().klines(parameters);
-        //log.info(result);
         try {
+            LinkedHashMap<String,Object> parameters = new LinkedHashMap<>();
+            parameters.put("symbol",symbol);
+            parameters.put("interval",interval);
+            String result = client.createMarket().klines(parameters);
+            //log.info(result);
+
             return objectMapper.readValue(result, new TypeReference<ArrayList<ArrayList<Object>>>() {})
                     .stream().map(KlinesRequestDto::generate)
                     .collect(Collectors.toList());
         } catch (JsonProcessingException e) {
-            e.printStackTrace();
+            log.error(e.getMessage(), e);
+        } catch (BinanceConnectorException e) {
+            log.error(e.getMessage(), e);
         }
         return null;
     }

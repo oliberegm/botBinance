@@ -1,5 +1,6 @@
 package com.olibersystem.bot.binance.botbinance.dto.request;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.extern.jackson.Jacksonized;
@@ -10,6 +11,7 @@ import java.util.List;
 @Jacksonized
 @Getter
 @Builder
+@JsonIgnoreProperties
 public class ExchangeInfoDTO {
     private  String timezone;
     private  long serverTime;
@@ -73,6 +75,10 @@ public class ExchangeInfoDTO {
         private int maxNumOrders;
         private int maxNumAlgoOrders;
         private String maxPosition;
+        private int minTrailingAboveDelta;
+        private int maxTrailingAboveDelta;
+        private int minTrailingBelowDelta;
+        private int maxTrailingBelowDelta;
     }
 }
 

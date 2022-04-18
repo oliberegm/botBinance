@@ -92,12 +92,18 @@ class BinanceServiceImplTest {
         //binanceService.averagePrice("BTCUSDT");
         // convertir la lista en un objeto
         // correrla cada 1seg para ver que hace
-        List<KlinesRequestDto> res = binanceService.klines("MTLUSDT", "15m");
-        for (KlinesRequestDto dto : res) {
-            klintesServices.add("MTLUSDT", dto);
-            for(Alert a : klintesServices.alerts()) {
-                log.info(a.toString());
-            }
+        for(int i = 0; i < 6; i++) {
+            List<KlinesRequestDto> res = binanceService.klines("MTLUSDT", "15m");
+            klintesServices.add("MTLUSDT", res);
+            klintesServices.alerts()
+                    .forEach(f -> log.info(f.toString()));
+            Thread.sleep(3000);
+            /*for (KlinesRequestDto dto : res) {
+                klintesServices.add("MTLUSDT", dto);
+                for(Alert a : klintesServices.alerts()) {
+                    log.info(a.toString());
+                }
+            }*/
         }
 
 

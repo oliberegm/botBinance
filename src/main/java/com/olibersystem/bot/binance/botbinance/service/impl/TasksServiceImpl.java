@@ -1,6 +1,7 @@
 package com.olibersystem.bot.binance.botbinance.service.impl;
 
 import com.olibersystem.bot.binance.botbinance.dto.request.ExchangeInfoDTO;
+import com.olibersystem.bot.binance.botbinance.dto.request.KlinesRequestDto;
 import com.olibersystem.bot.binance.botbinance.dto.request.TickerPriceDto;
 import com.olibersystem.bot.binance.botbinance.service.BinanceService;
 import com.olibersystem.bot.binance.botbinance.service.KlintesServices;
@@ -26,22 +27,24 @@ public class TasksServiceImpl implements TasksService {
 
     @Override
     public void loadData() {
-        exchangeInfoProcess(binanceService.exchangeInfo());
-        priceProcess(binanceService.pricesInfo());
-        klintesProcess();
+        try {
+            exchangeInfoProcess(binanceService.exchangeInfo());
+            priceProcess(binanceService.pricesInfo());
+            klintesProcess();
+        } catch (Exception e) {
+            log.error("Error general: "+e.getMessage(), e);
+        }
     }
 
     private void klintesProcess() {
         motorDataService.getAllInstrument()
                 .stream()
                 .filter(fill->"USDT".equals(fill.getInstrument().getQuoteAsset()))
-                .forEach( f ->
-                    binanceService.klines(f.getInstrument().getSymbol(), "15m")
-                            .forEach(klines -> {
-                                klintesServices.add(f.getInstrument().getSymbol(), klines);
-                                klintesServices.alerts().forEach(alert -> log.info(alert.toString()));
-                            })
-                );
+                .forEach( f -> {
+                            List<KlinesRequestDto> listt = binanceService.klines(f.getInstrument().getSymbol(), "15m");
+                            klintesServices.add(f.getInstrument().getSymbol(), listt);
+                        });
+        klintesServices.printAlert();
 
     }
 

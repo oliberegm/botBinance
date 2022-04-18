@@ -19,8 +19,9 @@ public class BinanceTask {
     private final KlintesServices klintesServices;
 
     private final long SEG_FIXED = 1000;
-    private final long FIXED1 = 1000 * 5;
+    private final long MIN_5 = 1000 * 60 * 5;
     private final long FIXED2 = 100000 * 60 * 5;
+
 
     public BinanceTask(InstrumentService instrumentService, TasksService tasksService, KlintesServices klintesServices) {
         this.instrumentService = instrumentService;
@@ -29,9 +30,13 @@ public class BinanceTask {
     }
 
     @Async(TaskConfig.BINANCE_TASK_EXECUTOR)
-    @Scheduled(fixedRate = FIXED2 )
+    @Scheduled(fixedRate = MIN_5 )
     public void loadExchangeInfo() {
+        log.warn("*******************************************************************");
+        log.warn("*********************LOAD DATA*************************************");
+        log.warn("*******************************************************************");
         tasksService.loadData();
+        log.warn("*********************END LOAD DATA*********************************");
     }
 
     //@Async(TaskConfig.BINANCE_TASK_EXECUTOR)
