@@ -1,5 +1,637 @@
-2022-04-18 00:01:56.491[1650250916491] | ERROR | BinanceAsync-18 | c.o.b.b.b.s.impl.TasksServiceImpl    - Error general: [ResponseHandler] OKHTTP Error: timeout
+2022-04-27 08:33:24.653[1651059204653] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 08:33:24.655[1651059204655] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 08:33:24.655[1651059204655] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 08:37:08.446[1651059428446] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 08:38:24.651[1651059504651] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 08:38:24.652[1651059504652] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 08:38:24.653[1651059504653] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 08:42:25.238[1651059745238] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 08:43:24.695[1651059804695] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 08:43:24.695[1651059804695] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 08:43:24.696[1651059804696] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 08:47:21.417[1651060041417] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 08:48:24.682[1651060104682] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 08:48:24.682[1651060104682] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 08:48:24.682[1651060104682] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 08:52:32.186[1651060352186] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 08:53:24.675[1651060404675] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 08:53:24.675[1651060404675] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 08:53:24.675[1651060404675] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 08:57:29.486[1651060649486] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 08:58:24.697[1651060704697] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 08:58:24.697[1651060704697] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 08:58:24.697[1651060704697] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:02:33.761[1651060953761] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 09:03:24.703[1651061004703] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:03:24.703[1651061004703] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 09:03:24.703[1651061004703] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:07:28.211[1651061248211] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 09:08:24.694[1651061304694] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:08:24.694[1651061304694] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 09:08:24.694[1651061304694] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:12:24.636[1651061544636] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 09:13:24.693[1651061604693] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:13:24.693[1651061604693] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 09:13:24.693[1651061604693] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:17:39.015[1651061859015] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 09:18:24.645[1651061904645] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:18:24.645[1651061904645] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 09:18:24.645[1651061904645] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:22:27.523[1651062147523] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 09:23:24.642[1651062204642] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:23:24.643[1651062204643] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 09:23:24.643[1651062204643] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:29:28.987[1651062568987] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 09:30:03.662[1651062603662] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:30:03.663[1651062603663] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 09:30:03.663[1651062603663] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:34:12.401[1651062852401] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 09:35:03.663[1651062903663] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:35:03.664[1651062903664] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 09:35:03.664[1651062903664] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:39:06.692[1651063146692] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 09:40:03.657[1651063203657] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:40:03.657[1651063203657] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 09:40:03.657[1651063203657] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:44:02.270[1651063442270] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 09:45:03.626[1651063503626] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:45:03.629[1651063503629] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 09:45:03.629[1651063503629] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:49:10.261[1651063750261] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 09:50:03.634[1651063803634] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:50:03.634[1651063803634] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 09:50:03.634[1651063803634] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:54:27.296[1651064067296] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 09:55:03.630[1651064103630] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:55:03.630[1651064103630] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 09:55:03.630[1651064103630] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 09:59:16.276[1651064356276] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 10:00:03.628[1651064403628] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:00:03.628[1651064403628] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 10:00:03.628[1651064403628] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:04:03.552[1651064643552] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 10:05:03.622[1651064703622] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:05:03.623[1651064703623] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 10:05:03.623[1651064703623] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:09:09.247[1651064949247] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 10:10:03.616[1651065003616] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:10:03.616[1651065003616] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 10:10:03.616[1651065003616] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:14:08.505[1651065248505] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 10:15:03.630[1651065303630] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:15:03.633[1651065303633] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 10:15:03.633[1651065303633] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:19:11.491[1651065551491] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 10:20:03.614[1651065603614] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:20:03.615[1651065603615] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 10:20:03.615[1651065603615] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:24:06.355[1651065846355] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 10:25:03.618[1651065903618] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:25:03.619[1651065903619] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 10:25:03.619[1651065903619] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:29:11.326[1651066151326] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 10:30:03.621[1651066203621] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:30:03.624[1651066203624] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 10:30:03.624[1651066203624] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:34:08.029[1651066448029] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 10:35:03.542[1651066503542] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:35:03.543[1651066503543] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 10:35:03.543[1651066503543] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:39:09.100[1651066749100] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 10:40:03.537[1651066803537] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:40:03.537[1651066803537] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 10:40:03.537[1651066803537] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:44:03.800[1651067043800] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 10:45:03.544[1651067103544] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:45:03.552[1651067103552] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 10:45:03.552[1651067103552] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:49:06.714[1651067346714] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 10:50:03.547[1651067403547] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:50:03.550[1651067403550] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 10:50:03.550[1651067403550] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:50:31.495[1651067431495] | ERROR | BinanceAsync-8 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: timeout
 com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: timeout
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 10:55:03.475[1651067703475] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:55:03.479[1651067703479] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 10:55:03.479[1651067703479] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 10:55:21.784[1651067721784] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 10:59:12.085[1651067952085] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 11:00:03.465[1651068003465] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:00:03.465[1651068003465] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 11:00:03.466[1651068003466] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:04:20.050[1651068260050] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 11:05:03.464[1651068303464] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:05:03.465[1651068303465] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 11:05:03.465[1651068303465] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:09:19.522[1651068559522] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 11:10:03.412[1651068603412] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:10:03.412[1651068603412] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 11:10:03.412[1651068603412] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:14:33.116[1651068873116] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 11:15:03.415[1651068903415] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:15:03.415[1651068903415] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 11:15:03.415[1651068903415] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:19:32.428[1651069172428] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 11:20:03.417[1651069203417] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:20:03.418[1651069203418] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 11:20:03.418[1651069203418] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:24:30.674[1651069470674] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 11:25:03.378[1651069503378] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:25:03.378[1651069503378] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 11:25:03.378[1651069503378] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:29:19.823[1651069759823] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 11:30:03.352[1651069803352] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:30:03.352[1651069803352] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 11:30:03.352[1651069803352] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:34:42.210[1651070082210] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 11:35:03.354[1651070103354] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:35:03.354[1651070103354] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 11:35:03.354[1651070103354] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:39:25.177[1651070365177] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 11:40:03.416[1651070403416] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:40:03.417[1651070403417] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 11:40:03.417[1651070403417] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:44:36.252[1651070676252] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 11:45:03.419[1651070703419] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:45:03.419[1651070703419] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 11:45:03.419[1651070703419] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:49:28.157[1651070968157] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 11:50:03.421[1651071003421] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:50:03.421[1651071003421] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 11:50:03.421[1651071003421] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:54:28.571[1651071268571] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 11:55:03.430[1651071303430] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:55:03.430[1651071303430] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 11:55:03.430[1651071303430] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 11:59:24.015[1651071564015] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 12:00:03.430[1651071603430] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:00:03.430[1651071603430] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 12:00:03.430[1651071603430] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:04:22.198[1651071862198] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 12:05:03.433[1651071903433] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:05:03.435[1651071903435] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 12:05:03.435[1651071903435] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:09:48.354[1651072188354] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 12:10:03.334[1651072203334] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:10:03.335[1651072203335] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 12:10:03.335[1651072203335] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:14:25.165[1651072465165] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 12:15:03.337[1651072503337] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:15:03.338[1651072503338] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 12:15:03.338[1651072503338] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:19:42.034[1651072782034] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 12:20:03.336[1651072803336] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:20:03.336[1651072803336] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 12:20:03.336[1651072803336] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:24:32.032[1651073072032] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 12:25:03.413[1651073103413] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:25:03.413[1651073103413] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 12:25:03.413[1651073103413] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:29:28.932[1651073368932] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 12:30:03.432[1651073403432] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:30:03.432[1651073403432] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 12:30:03.432[1651073403432] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:34:27.179[1651073667179] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 12:35:03.419[1651073703419] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:35:03.419[1651073703419] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 12:35:03.419[1651073703419] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:43:07.807[1651074187807] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com: nodename nor servname provided, or not known
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com: nodename nor servname provided, or not known
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:43:10.881[1651074190881] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:50:21.918[1651074621918] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com: nodename nor servname provided, or not known
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com: nodename nor servname provided, or not known
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:50:22.102[1651074622102] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:50:22.253[1651074622253] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:50:22.427[1651074622427] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:50:22.585[1651074622585] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:50:22.746[1651074622746] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:50:22.899[1651074622899] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:50:23.071[1651074623071] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:50:26.304[1651074626304] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:50:29.465[1651074629465] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:50:44.389[1651074644389] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:50:44.390[1651074644390] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 12:50:44.391[1651074644391] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:51:04.155[1651074664155] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: api.binance.com: nodename nor servname provided, or not known
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com: nodename nor servname provided, or not known
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 12:51:04.893[1651074664893] | ERROR | BinanceAsync-10 | c.o.b.b.b.s.impl.TasksServiceImpl    - Error general: [ResponseHandler] OKHTTP Error: api.binance.com
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: api.binance.com
 	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
 	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
 	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
@@ -17,7 +649,274 @@ com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHand
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2022-04-18 00:01:56.491[1650250916491] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
-2022-04-18 08:29:14.411[1650281354411] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
-2022-04-18 08:29:14.412[1650281354412] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
-2022-04-18 08:29:14.412[1650281354412] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 12:51:04.897[1651074664897] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 14:03:34.003[1651079014003] | ERROR | BinanceAsync-9 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: timeout
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: timeout
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 14:04:17.524[1651079057524] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:04:17.525[1651079057525] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 14:04:17.526[1651079057526] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:12:43.512[1651079563512] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 14:16:42.363[1651079802363] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 14:17:21.962[1651079841962] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:17:21.962[1651079841962] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 14:17:21.962[1651079841962] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:21:34.704[1651080094704] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 14:22:21.955[1651080141955] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:22:21.955[1651080141955] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 14:22:21.955[1651080141955] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:26:37.995[1651080397995] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 14:27:21.944[1651080441944] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:27:21.944[1651080441944] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 14:27:21.944[1651080441944] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:31:40.339[1651080700339] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 14:32:21.948[1651080741948] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:32:21.949[1651080741949] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 14:32:21.949[1651080741949] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:36:40.196[1651081000196] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 14:37:21.778[1651081041778] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:37:21.778[1651081041778] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 14:37:21.778[1651081041778] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:41:50.331[1651081310331] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 14:42:21.758[1651081341758] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:42:21.760[1651081341760] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 14:42:21.760[1651081341760] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:46:36.939[1651081596939] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 14:47:21.731[1651081641731] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:47:21.732[1651081641732] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 14:47:21.732[1651081641732] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:51:45.157[1651081905157] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 14:52:21.866[1651081941866] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:52:21.867[1651081941867] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 14:52:21.868[1651081941868] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:56:35.624[1651082195624] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 14:57:21.870[1651082241870] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 14:57:21.871[1651082241871] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 14:57:21.871[1651082241871] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:01:45.817[1651082505817] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 15:02:21.884[1651082541884] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:02:21.887[1651082541887] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 15:02:21.887[1651082541887] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:06:56.260[1651082816260] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 15:07:21.906[1651082841906] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:07:21.907[1651082841907] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 15:07:21.907[1651082841907] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:11:45.656[1651083105656] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 15:12:21.914[1651083141914] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:12:21.914[1651083141914] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 15:12:21.914[1651083141914] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:16:50.608[1651083410608] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 15:17:21.928[1651083441928] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:17:21.928[1651083441928] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 15:17:21.928[1651083441928] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:22:02.966[1651083722966] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 15:22:22.046[1651083742046] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:22:22.047[1651083742047] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 15:22:22.047[1651083742047] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:26:43.882[1651084003882] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 15:27:22.040[1651084042040] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:27:22.040[1651084042040] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 15:27:22.040[1651084042040] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:31:44.023[1651084304023] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 15:32:22.046[1651084342046] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:32:22.046[1651084342046] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 15:32:22.046[1651084342046] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:36:55.483[1651084615483] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 15:37:21.935[1651084641935] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:37:21.935[1651084641935] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 15:37:21.935[1651084641935] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:41:47.622[1651084907622] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 15:42:21.937[1651084941937] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:42:21.938[1651084941938] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 15:42:21.938[1651084941938] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:44:37.999[1651085077999] | ERROR | BinanceAsync-10 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: timeout
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: timeout
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 15:44:48.179[1651085088179] | ERROR | BinanceAsync-10 | c.o.b.b.b.s.impl.BinanceServiceImpl  - [ResponseHandler] OKHTTP Error: timeout
+com.binance.connector.client.exceptions.BinanceConnectorException: [ResponseHandler] OKHTTP Error: timeout
+	at com.binance.connector.client.utils.ResponseHandler.handleResponse(ResponseHandler.java:41)
+	at com.binance.connector.client.utils.RequestHandler.sendApiRequest(RequestHandler.java:53)
+	at com.binance.connector.client.utils.RequestHandler.sendPublicRequest(RequestHandler.java:58)
+	at com.binance.connector.client.impl.spot.Market.klines(Market.java:197)
+	at com.olibersystem.bot.binance.botbinance.service.impl.BinanceServiceImpl.klines(BinanceServiceImpl.java:231)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.findKlines(TasksServiceImpl.java:51)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.lambda$klintesProcess$1(TasksServiceImpl.java:44)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.klintesProcess(TasksServiceImpl.java:43)
+	at com.olibersystem.bot.binance.botbinance.service.impl.TasksServiceImpl.loadData(TasksServiceImpl.java:33)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask.loadExchangeInfo(BinanceTask.java:38)
+	at com.olibersystem.bot.binance.botbinance.tasks.BinanceTask$$FastClassBySpringCGLIB$$5dc8e4ca.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-04-27 15:48:57.764[1651085337764] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:48:57.766[1651085337766] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 15:48:57.766[1651085337766] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:49:34.698[1651085374698] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 15:53:39.920[1651085619920] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 15:53:57.747[1651085637747] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:53:57.747[1651085637747] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 15:53:57.747[1651085637747] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:58:36.687[1651085916687] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 15:58:57.753[1651085937753] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 15:58:57.753[1651085937753] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 15:58:57.753[1651085937753] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:03:54.172[1651086234172] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 16:03:57.734[1651086237734] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:03:57.734[1651086237734] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 16:03:57.734[1651086237734] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:08:57.741[1651086537741] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:08:57.742[1651086537742] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 16:08:57.745[1651086537745] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:09:00.761[1651086540761] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 16:13:38.943[1651086818943] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 16:13:57.743[1651086837743] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:13:57.747[1651086837747] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 16:13:57.747[1651086837747] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:18:55.845[1651087135845] | WARN  | BinanceAsync-15 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 16:18:57.711[1651087137711] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:18:57.711[1651087137711] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 16:18:57.711[1651087137711] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:23:33.669[1651087413669] | WARN  | BinanceAsync-16 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 16:23:57.715[1651087437715] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:23:57.715[1651087437715] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 16:23:57.715[1651087437715] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:28:41.295[1651087721295] | WARN  | BinanceAsync-17 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 16:28:57.722[1651087737722] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:28:57.723[1651087737723] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 16:28:57.723[1651087737723] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:33:35.638[1651088015638] | WARN  | BinanceAsync-18 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 16:33:57.722[1651088037722] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:33:57.723[1651088037723] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 16:33:57.723[1651088037723] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:38:37.856[1651088317856] | WARN  | BinanceAsync-19 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 16:38:57.727[1651088337727] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:38:57.727[1651088337727] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 16:38:57.727[1651088337727] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:43:46.532[1651088626532] | WARN  | BinanceAsync-20 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 16:43:57.736[1651088637736] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:43:57.736[1651088637736] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 16:43:57.736[1651088637736] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:48:29.623[1651088909623] | WARN  | BinanceAsync-1 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 16:48:57.626[1651088937626] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:48:57.626[1651088937626] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 16:48:57.629[1651088937629] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:53:57.629[1651089237629] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:53:57.631[1651089237631] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 16:53:57.631[1651089237631] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:54:02.800[1651089242800] | WARN  | BinanceAsync-2 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 16:58:57.638[1651089537638] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:58:57.641[1651089537641] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 16:58:57.641[1651089537641] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 16:59:00.702[1651089540702] | WARN  | BinanceAsync-3 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 17:03:52.100[1651089832100] | WARN  | BinanceAsync-4 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 17:03:57.609[1651089837609] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:03:57.610[1651089837610] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 17:03:57.610[1651089837610] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:08:57.604[1651090137604] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:08:57.605[1651090137605] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 17:08:57.605[1651090137605] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:08:59.132[1651090139132] | WARN  | BinanceAsync-5 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 17:13:38.766[1651090418766] | WARN  | BinanceAsync-6 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 17:13:57.613[1651090437613] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:13:57.613[1651090437613] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 17:13:57.613[1651090437613] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:18:39.727[1651090719727] | WARN  | BinanceAsync-7 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 17:18:57.543[1651090737543] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:18:57.543[1651090737543] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 17:18:57.543[1651090737543] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:23:27.828[1651091007828] | WARN  | BinanceAsync-8 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 17:23:57.538[1651091037538] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:23:57.538[1651091037538] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 17:23:57.538[1651091037538] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:28:48.443[1651091328443] | WARN  | BinanceAsync-10 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 17:28:57.537[1651091337537] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:28:57.538[1651091337538] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 17:28:57.538[1651091337538] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:33:30.006[1651091610006] | WARN  | BinanceAsync-9 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 17:33:57.590[1651091637590] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:33:57.590[1651091637590] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 17:33:57.590[1651091637590] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:38:39.742[1651091919742] | WARN  | BinanceAsync-11 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 17:38:57.596[1651091937596] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:38:57.596[1651091937596] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 17:38:57.596[1651091937596] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:43:33.018[1651092213018] | WARN  | BinanceAsync-12 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 17:43:57.598[1651092237598] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:43:57.599[1651092237599] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 17:43:57.599[1651092237599] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:48:34.610[1651092514610] | WARN  | BinanceAsync-13 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************
+2022-04-27 17:48:57.457[1651092537457] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:48:57.458[1651092537458] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *********************LOAD DATA*************************************
+2022-04-27 17:48:57.458[1651092537458] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *******************************************************************
+2022-04-27 17:53:32.085[1651092812085] | WARN  | BinanceAsync-14 | c.o.b.b.botbinance.tasks.BinanceTask - *********************END LOAD DATA*********************************

@@ -77,7 +77,12 @@ public class KlintesServices {
 
     public void printAlert() {
         this.alerts()
-                .forEach(f -> log.warn("ENCONTRADO: "+f.toString()));
+                .forEach(f -> System.out.println("ENCONTRADO: "+f.toString()));
+    }
+    public void printAlert(String instrument){
+        this.alerts().stream()
+                .filter(fil -> instrument.equals( fil.getInstrument()))
+                .forEach(f -> System.out.println("ENCONTRADO: "+f.toString()));
     }
 
     private Alert evaluateOperation(Map.Entry<String, List<KlinesRequestDto>> klinesRequestDtoList) {

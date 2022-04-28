@@ -41,11 +41,18 @@ public class TasksServiceImpl implements TasksService {
                 .stream()
                 .filter(fill->"USDT".equals(fill.getInstrument().getQuoteAsset()))
                 .forEach( f -> {
-                            List<KlinesRequestDto> listt = binanceService.klines(f.getInstrument().getSymbol(), "15m");
-                            klintesServices.add(f.getInstrument().getSymbol(), listt);
+                            this.findKlines(f.getInstrument().getSymbol());
+                            klintesServices.printAlert(f.getInstrument().getSymbol());
                         });
-        klintesServices.printAlert();
+    }
 
+    private void findKlines(String instrument) {
+        try {
+            List<KlinesRequestDto> listt = binanceService.klines(instrument, "15m");
+            klintesServices.add(instrument, listt);
+        } catch (Exception e) {
+            log.error(e.getMessage(), e);
+        }
     }
 
     private void exchangeInfoProcess(ExchangeInfoDTO success) {
