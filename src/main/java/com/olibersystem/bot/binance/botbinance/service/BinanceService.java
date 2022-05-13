@@ -2,7 +2,9 @@ package com.olibersystem.bot.binance.botbinance.service;
 
 import com.olibersystem.bot.binance.botbinance.dto.request.AccountRequestDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.AccountSnapshotDTO;
+import com.olibersystem.bot.binance.botbinance.dto.request.BookTickerDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.ExchangeInfoDTO;
+import com.olibersystem.bot.binance.botbinance.dto.request.Info24HDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.KlinesRequestDto;
 import com.olibersystem.bot.binance.botbinance.dto.request.TickerPriceDto;
 import reactor.core.publisher.Mono;
@@ -28,6 +30,8 @@ public interface BinanceService {
 
     List<TickerPriceDto> pricesInfo();
 
+    List<Info24HDTO> Info24H();
+
     boolean newOrderTest(String instrument, String operation, double price, double quantity);
 
     int newOrder(String instrument, String operation, double price, double quantity);
@@ -37,4 +41,6 @@ public interface BinanceService {
     String averagePrice(String symbol);
 
     List<KlinesRequestDto> klines(String symbol, String interval);
+
+    List<BookTickerDTO> bookTicker();
 }

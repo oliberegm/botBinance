@@ -1,5 +1,6 @@
 package com.olibersystem.bot.binance.botbinance.model;
 
+import com.olibersystem.bot.binance.botbinance.dto.request.BookTickerDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.ExchangeInfoDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.TickerPriceDto;
 import lombok.Getter;
@@ -22,7 +23,14 @@ public class SymbolBO {
     public SymbolBO(ExchangeInfoDTO.SymbolRequestDto symbol) {
         this.idName = symbol.getSymbol();
         this.symbol = symbol.getSymbol();
-        this.traderBO = new TraderBO(symbol);
+        this.traderBO = TraderBO.builder()
+                .instrument(symbol.getSymbol())
+                .base(symbol.getBaseAsset())
+                .quote(symbol.getQuoteAsset())
+                .operated("TRADING".equals(symbol.getStatus()))
+                .buy(1D)
+                .sell(1D)
+                .build();
         summaryBO = new SummaryBO();
         operations = new ArrayList<>();
     }
@@ -35,6 +43,16 @@ public class SymbolBO {
     public void addOperation(TickerPriceDto tickerPriceDto) {
         OperationBO operationBO = new OperationBO(LocalDateTime.now(),
                 Double.parseDouble(tickerPriceDto.price));
+        operations.add(operationBO);
+        this.summaryBO.update(operationBO);
+        this.traderBO.setPrice(operationBO.getPrice());
+        this.traderBO.setBuy(operationBO.getPrice());
+        this.traderBO.setSell(1 / operationBO.getPrice());
+        this.generateCalculations();
+    }
+    public void addOperation(BookTickerDTO bookTickerDTO) {
+        OperationBO operationBO = new OperationBO(LocalDateTime.now(),
+                Double.parseDouble(bookTickerDTO.getBidPrice()));
         operations.add(operationBO);
         this.summaryBO.update(operationBO);
         this.traderBO.setPrice(operationBO.getPrice());

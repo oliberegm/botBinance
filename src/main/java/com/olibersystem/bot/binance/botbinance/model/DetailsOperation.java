@@ -12,4 +12,5 @@ public class DetailsOperation {
     private Double cant;
     private String operation;
     private String symbol;
+    private Double price;
 }

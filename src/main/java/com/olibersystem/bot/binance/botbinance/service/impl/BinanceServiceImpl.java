@@ -8,8 +8,10 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.olibersystem.bot.binance.botbinance.dto.request.AccountRequestDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.AccountSnapshotDTO;
+import com.olibersystem.bot.binance.botbinance.dto.request.BookTickerDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.ErrorRequestDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.ExchangeInfoDTO;
+import com.olibersystem.bot.binance.botbinance.dto.request.Info24HDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.KlinesRequestDto;
 import com.olibersystem.bot.binance.botbinance.dto.request.OrdersRequestDTO;
 import com.olibersystem.bot.binance.botbinance.dto.request.TickerPriceDto;
@@ -127,6 +129,19 @@ public class BinanceServiceImpl implements BinanceService {
     }
 
     @Override
+    public List<Info24HDTO> Info24H() {
+        LinkedHashMap<String,Object> parameters = new LinkedHashMap<>();
+        String result = client.createMarket().ticker24H(parameters);
+        try {
+            return objectMapper.readValue(result, new TypeReference<ArrayList<Info24HDTO>>() {
+            });
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    @Override
     public boolean newOrderTest(String instrument, String operation, double price, double quantity) {
         LinkedHashMap<String,Object> parameters = new LinkedHashMap<>();
         parameters.put("symbol", instrument);
@@ -155,9 +170,10 @@ public class BinanceServiceImpl implements BinanceService {
         LinkedHashMap<String,Object> parameters = new LinkedHashMap<>();
         parameters.put("symbol", instrument);
         parameters.put("side", operation);
-        parameters.put("type", "MARKET");
+        parameters.put("type", "LIMIT");
+        parameters.put("timeInForce", "GTC");
         parameters.put("quantity", quantity);
-        //parameters.put("price", price);
+        parameters.put("price", price);
 
         try {
             log.info(String.format("EXE %s %s %s", instrument, operation, quantity));
@@ -238,6 +254,19 @@ public class BinanceServiceImpl implements BinanceService {
             log.error(e.getMessage(), e);
         } catch (BinanceConnectorException e) {
             log.error(e.getMessage(), e);
+        }
+        return null;
+    }
+
+    @Override
+    public List<BookTickerDTO> bookTicker() {
+        LinkedHashMap<String,Object> parameters = new LinkedHashMap<>();
+        String result = client.createMarket().bookTicker(parameters);
+        try {
+            return objectMapper.readValue(result, new TypeReference<ArrayList<BookTickerDTO>>() {
+            });
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
         }
         return null;
     }

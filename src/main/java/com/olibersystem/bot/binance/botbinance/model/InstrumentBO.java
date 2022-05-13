@@ -38,7 +38,7 @@ public class InstrumentBO {
     }
 
     public Double getBuy(Double amount) {
-        return round(amount / this.price);
+        return roundLotSize(amount / this.price);
     }
 
     public String getBuy() {
@@ -46,7 +46,7 @@ public class InstrumentBO {
     }
 
     public Double getSell(Double amount) {
-        return round(amount * price);
+        return roundLotSize(amount * price);
     }
 
     public String getSell() {
@@ -60,16 +60,33 @@ public class InstrumentBO {
                 .get().getStepSize());
     }
 
-    public Double evaluateAmount(Double amount) {
-        return this.round(amount);
+    public Double evaluatePriceFilter(Double amount) {
+        return this.roundPriceFilter(amount);
     }
 
-    private Double round(Double amount ) {
+    public Double evaluateAmount(Double amount) {
+        return this.roundLotSize(amount);
+    }
+
+    private Double roundLotSize(Double amount) {
         double number1 = amount;
         double round = Double.parseDouble(instrument.getFilters().stream()
                 .filter(f -> f.getFilterType().equals("LOT_SIZE"))
                 .findFirst()
                 .get().getStepSize());
+        int count = 0;
+        while(round < 1){
+            round *= 10;
+            count++;
+        }
+        return BigDecimal.valueOf(amount).setScale(count, RoundingMode.FLOOR).doubleValue();
+    }
+    private Double roundPriceFilter(Double amount) {
+        double number1 = amount;
+        double round = Double.parseDouble(instrument.getFilters().stream()
+            .filter(f -> f.getFilterType().equals("PRICE_FILTER"))
+            .findFirst()
+            .get().getTickSize());
         int count = 0;
         while(round < 1){
             round *= 10;

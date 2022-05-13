@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 
 public class Pruebas {
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         /*double number1 = 100/6.12000000;
         double round = 0.00010000;
         int count = 0;

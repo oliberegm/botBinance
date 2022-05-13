@@ -18,9 +18,10 @@ public class BinanceTask {
     private final TasksService tasksService;
     private final KlintesServices klintesServices;
 
-    private final long SEG_FIXED = 1000;
-    private final long MIN_5 = 1000 * 60 * 5;
-    private final long FIXED2 = 100000 * 60 * 5;
+    private final long MIN_1  = 1000 * 60;
+    private final long MIN_2  = 1000 * 60 * 5;
+    private final long MIN_5  = 1000 * 60 * 5;
+    private final long MIN_10 = 1000 * 60 * 10;
 
 
     public BinanceTask(InstrumentService instrumentService, TasksService tasksService, KlintesServices klintesServices) {
@@ -30,18 +31,34 @@ public class BinanceTask {
     }
 
     @Async(TaskConfig.BINANCE_TASK_EXECUTOR)
-    @Scheduled(fixedRate = MIN_5 )
+    @Scheduled(fixedRate = MIN_1 )
     public void loadExchangeInfo() {
-        log.warn("*******************************************************************");
-        log.warn("*********************LOAD DATA*************************************");
-        log.warn("*******************************************************************");
+        log.error("*******************************************************************");
+        log.error("*********************LOAD DATA*************************************");
+        log.error("*******************************************************************");
         tasksService.loadData();
-        log.warn("*********************END LOAD DATA*********************************");
+        log.error("*********************END LOAD DATA*********************************");
+        //tasksService.binariesProcess();
+    }
+
+    @Async(TaskConfig.BINANCE_TASK_EXECUTOR)
+    @Scheduled(fixedRate = MIN_1)
+    public void volume() {
+        log.error("*******************************************************************");
+        log.error("*********************INIT BINARIES*********************************");
+        log.error("*******************************************************************");
+        tasksService.klintesProcess();
+        log.error("*********************END INIT BINARIES*****************************");
     }
 
     //@Async(TaskConfig.BINANCE_TASK_EXECUTOR)
-    //@Scheduled(fixedRate = 25000)
-    public void loadPriceInfo() throws InterruptedException {
-        //instrumentService.executeThreeOperation();
+    //@Scheduled(fixedRate = MIN_1)
+    public void binaries() throws InterruptedException {
+        log.warn("*******************************************************************");
+        log.warn("*********************INIT BINARIES*********************************");
+        log.warn("*******************************************************************");
+        tasksService.binariesProcess();
+        log.warn("*********************END INIT BINARIES*****************************");
     }
+
 }

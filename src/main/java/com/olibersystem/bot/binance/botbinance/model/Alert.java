@@ -20,6 +20,9 @@ public class Alert {
     private double price;
 
     public String toString(){
-        return String.format("%10s, %s, %6.2f, %19s, %19s, entrada: %5.6f, salida: %5.6f", instrument, valid, increment, executionTime, encounter, price, price*1.008 );
+        return String.format("%10s, %s, %6.2f, %19s, %19s, entrada: %5.6f, salida: %5.6f", instrument, valid, increment, executionTime, encounter, price, getSell() );
+    }
+    public double getSell() {
+        return price * 1.008;
     }
 }
