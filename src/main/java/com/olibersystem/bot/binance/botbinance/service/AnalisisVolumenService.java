@@ -36,7 +36,8 @@ public class AnalisisVolumenService extends Thread{
 
     private void executeOperation(Alert alert) {
         if (alert == null) return;
-        log.error("ENCONTRADO SIMPLE: " + alert);
+        //log.error("ENCONTRADO SIMPLE: " + alert);
+        System.out.println("ENCONTRADO SIMPLE: " + alert);
         buySell(alert);
     }
 
@@ -64,9 +65,11 @@ public class AnalisisVolumenService extends Thread{
     private void validateOrderClose(String instrument) throws InterruptedException {
         while(binanceService.ordenOpen(instrument)) {
             Thread.sleep(500);
-            log.error("NO SE HA CERRADO " + instrument);
+            //log.error("NO SE HA CERRADO " + instrument);
+            System.out.println("NO SE HA CERRADO " + instrument);
         }
-        log.error("CERRADA " + instrument);
+        //log.error("CERRADA " + instrument);
+        System.out.println("CERRADA " + instrument);
     }
 
 
